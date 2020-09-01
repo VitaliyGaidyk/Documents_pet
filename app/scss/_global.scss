@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Gilroy Light';
+    font-size: 16px;
+    line-height: 19px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    font-family: 'Gilroy Regular';
+    display: inline-block;
+    text-decoration: none;
+    color: #333333;
+}
+
+.header {
+    position: relative;
+    margin-top: 21px;
+    height: 100vh;
+
+}
+
+.container {
+    max-width: 1170px;
+    padding-left: 50px;
+}

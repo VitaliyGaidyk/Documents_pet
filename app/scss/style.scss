@@ -1,0 +1,194 @@
+@import '../../node_modules/slick-carousel/slick/slick';
+@import '../../node_modules/normalize.css/normalize';
+@import 'global';
+@import 'fonts';
+
+
+
+.header {
+    background-image: url('../images/svg/header-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__logo {
+        padding-top: 39px;
+    }
+
+    &__contacts {
+        padding-top: 39px;
+    }
+
+    &__contacts-item:nth-child(2) {
+        margin: 0 15px;
+    }
+
+    &__contacts-item--whatsup {
+        background: #2DD038;
+        border-radius: 50%;
+        box-shadow: 0px 8px 25px rgba(45, 208, 56, 0.497678);
+        cursor: pointer;
+    }
+
+    &__contacts-item--viber {
+        background: #7B519D;
+        border-radius: 50%;
+        box-shadow: 0px 8px 25px rgba(123, 81, 157, 0.503797);
+        cursor: pointer;
+
+    }
+
+    &__contacts-item--telegram {
+        background: #5BBAF0;
+        border-radius: 50%;
+
+        box-shadow: 0px 8px 25px rgba(91, 186, 240, 0.5);
+        cursor: pointer;
+
+    }
+
+    &__text {
+        position: relative;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #5D5D5D;
+        width: 188px;
+        top: 22px;
+        left: 30px;
+        margin-right: 80px;
+
+        &::before {
+            content: '';
+            width: 2px;
+            height: 47px;
+            background: #D8D8D8;
+            border: 1px solid #89AFEF;
+            position: absolute;
+            left: -15px;
+        }
+
+    }
+
+    &__top {
+        display: flex;
+        justify-content: start;
+
+    }
+
+    &__number {
+        font-size: 20px;
+        line-height: 24px;
+        color: #333333;
+        position: relative;
+        font-family: 'Gilroy Bold';
+        margin-top: 33px;
+        margin-left: 100px;
+
+        &::before {
+            left: -22px;
+            top: 4px;
+            position: absolute;
+            content: '';
+            width: 16px;
+            height: 16px;
+            background-image: url('../images/svg/call.svg');
+        }
+    }
+
+    &__email {
+        font-family: 'Gilroy Light';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: right;
+        margin-top: 6px;
+
+        &::before {
+            top: 34px;
+            left: 4px;
+            position: absolute;
+            content: '';
+            width: 16px;
+            height: 16px;
+            background-image: url('../images/svg/email-img.svg');
+            background-repeat: no-repeat;
+        }
+    }
+
+    &__button {
+        margin-top: 34px;
+        margin-left: 30px;
+        width: 195px;
+        height: 44px;
+        border-radius: 5px;
+        border: none;
+        background: linear-gradient(90deg, #F6BD60 0%, #E88952 100%);
+        box-shadow: 0px 8px 18px rgba(242, 147, 81, 0.450503);
+        border-radius: 3px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__button p {
+        font-family: 'Gilroy Light';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 0;
+        margin: 0;
+    }
+
+    &__main-text-title {
+        font-family: 'Gilroy Bold';
+        width: 675px;
+        margin-top: 100px;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 51px;
+        padding-bottom: 20px;
+    }
+
+    &__main-text-price {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+
+        & span {
+            font-weight: 800;
+            font-family: 'Gilroy Extra Bold';
+        }
+    }
+
+    &__button--blue-button {
+        background: linear-gradient(90deg, #87AFF1 0%, #6C80CB 100%, #6C80CB 100%);
+        box-shadow: 0px 12px 20px rgba(132, 170, 237, 0.454846);
+        border-radius: 3px;
+        margin: 33px 0 0;
+    }
+}
+
+.menu__nav-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    text-transform: uppercase;
+    padding: 0;
+
+    &__nav-link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+@import '_media';
