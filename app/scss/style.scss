@@ -12,22 +12,23 @@
     position: relative;
 
     &__men {
-        background-image: url('../images/png/men-header.png');
+        background-image: url('../images/png/men-header.svg');
         background-repeat: no-repeat;
-        width: 390px;
-        height: 500px;
+        background-position: center right;
+        width: 400px;
+        height: 563px;
         position: absolute;
-        right: 0;
-        top: 168px;
+        top: 110px;
         right: 250px;
+        width: 100%;
     }
 
     &__logo {
-        padding-top: 39px;
+        // padding-top: 39px;
     }
 
     &__contacts {
-        padding-top: 39px;
+        // padding-top: 39px;
     }
 
     &__contacts-item:nth-child(2) {
@@ -65,7 +66,7 @@
         line-height: 16px;
         color: #5D5D5D;
         width: 188px;
-        top: 22px;
+        // top: 38px;
         left: 30px;
         margin-right: 80px;
 
@@ -84,6 +85,7 @@
     &__top {
         display: flex;
         justify-content: start;
+        align-items: center;
 
     }
 
@@ -93,12 +95,11 @@
         color: #333333;
         position: relative;
         font-family: 'Gilroy Bold';
-        margin-top: 33px;
-        margin-left: 100px;
+        margin: 0 0 0 100px;
 
         &::before {
-            left: -22px;
-            top: 4px;
+            left: -26px;
+            // top: 23px;
             position: absolute;
             content: '';
             width: 16px;
@@ -114,10 +115,10 @@
         font-size: 17px;
         line-height: 20px;
         text-align: right;
-        margin-top: 6px;
+        // margin-top: 6px;
 
         &::before {
-            top: 34px;
+            top: 27px;
             left: 4px;
             position: absolute;
             content: '';
@@ -129,8 +130,7 @@
     }
 
     &__button {
-        margin-top: 34px;
-        margin-left: 30px;
+        margin-left: 35px;
         width: 195px;
         height: 44px;
         border-radius: 5px;
@@ -188,11 +188,11 @@
 .menu__nav-list {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 5px;
     text-transform: uppercase;
     padding: 0;
     margin-right: 151px;
-
+    margin-top: 27px;
 
     &__nav-link {
         font-weight: 500;
