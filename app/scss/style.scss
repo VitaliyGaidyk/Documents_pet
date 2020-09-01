@@ -6,9 +6,21 @@
 
 
 .header {
-    background-image: url('../images/svg/header-bg.svg');
+    background-image: url('../images/png/header-bg.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: bottom right;
+    position: relative;
+
+    &__men {
+        background-image: url('../images/png/men-header.png');
+        background-repeat: no-repeat;
+        width: 390px;
+        height: 500px;
+        position: absolute;
+        right: 0;
+        top: 168px;
+        right: 250px;
+    }
 
     &__logo {
         padding-top: 39px;
@@ -179,6 +191,8 @@
     margin-top: 50px;
     text-transform: uppercase;
     padding: 0;
+    margin-right: 151px;
+
 
     &__nav-link {
         font-weight: 500;
