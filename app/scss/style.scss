@@ -12,13 +12,13 @@
     position: relative;
 
     &__men {
-        background-image: url('../images/png/men-header.svg');
+        background-image: url('../images/png/group.png');
         background-repeat: no-repeat;
         background-position: center right;
         width: 400px;
         height: 563px;
         position: absolute;
-        top: 110px;
+        top: 143px;
         right: 250px;
         width: 100%;
     }
@@ -202,6 +202,37 @@
         &:hover {
             cursor: pointer;
         }
+    }
+}
+
+.documents__items {
+    text-align: center;
+
+    .documents__card {
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    .documents__card-icon {
+        transform: translate(9px, 50%);
+
+    }
+
+    .documents__icon-title {
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 23px;
+        text-align: center;
+        color: #333333;
+        padding-top: 15px;
+        width: 200px;
+        transform: translate(20%);
+    }
+
+    .documents__card-item {
+        width: 262px;
+        box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.1);
     }
 }
 
