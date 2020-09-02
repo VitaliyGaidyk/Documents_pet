@@ -278,7 +278,7 @@
     .section__slider-program {
         display: flex;
         justify-content: space-between;
-        padding: 0 70px 30px;
+        padding: 0 70px 90px;
 
     }
 
@@ -335,5 +335,28 @@
     }
 }
 
+.section__example {
+    max-width: 1920px;
+    background-color: #F6F6F6;
+    padding: 80px 100px;
+}
+
+.section__example-item {
+    position: relative;
+}
+
+.slider-arrows.slider-arrows__left {
+    left: -59px;
+    position: absolute;
+    top: 127px;
+    cursor: pointer;
+}
+
+.slider-arrows.slider-arrows__right {
+    right: -34px;
+    position: absolute;
+    top: 137px;
+    cursor: pointer;
+}
 
 @import '_media';
