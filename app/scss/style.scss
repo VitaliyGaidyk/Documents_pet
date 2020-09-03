@@ -4,8 +4,6 @@
 @import 'fonts';
 @import 'btn-slider';
 
-
-
 .header {
     background-image: url('../images/png/header-bg.png');
     background-repeat: no-repeat;
@@ -151,6 +149,7 @@
         font-size: 40px;
         line-height: 51px;
         padding-bottom: 20px;
+        text-align: left;
     }
 
     &__main-text-price {
@@ -195,14 +194,13 @@
 .documents__items {
     text-align: center;
 
-    .documents__items-title {
+    &__items-title {
         font-weight: 800;
         font-size: 36px;
         line-height: 46px;
         text-align: center;
         margin-bottom: 35px;
         font-family: 'Gilroy Extra Bold';
-
     }
 
     .documents__card {
@@ -242,44 +240,44 @@
     padding: 20px 25px 45px;
     max-width: 1920px;
     background-color: #F6F6F6;
+}
 
-    .section__advantages-items {
-        display: flex;
-        justify-content: space-between;
-    }
+.section__advantages-items {
+    display: flex;
+    justify-content: space-between;
 
-    .section__advantages-item {
+    &__advantages-item {
         padding-top: 20px;
     }
-
-    .section__advantages-title {
-        font-weight: 800;
-        font-size: 22px;
-        line-height: 27px;
-        text-align: center;
-        width: 262px;
-
-    }
-
-    .section__advantages-text {
-        font-weight: 500;
-        font-size: 17px;
-        line-height: 25px;
-        width: 257px;
-        text-align: center;
-    }
-
-    .section__advantages-img {
-        transform: translate(72%, 10px);
-    }
 }
+
+.section__advantages-title {
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    width: 262px;
+
+}
+
+.section__advantages-text {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    width: 257px;
+    text-align: center;
+}
+
+.section__advantages-img {
+    transform: translate(72%, 10px);
+}
+
 
 .section__slider {
     .section__slider-program {
         display: flex;
         justify-content: space-between;
         padding: 0 70px 90px;
-
     }
 
     .section__slider-title {
@@ -359,6 +357,11 @@
     cursor: pointer;
 }
 
+.section__news-link {
+    margin: 0;
+    padding: 0;
+}
+
 .section__news-item {
     max-width: 630px;
     display: flex;
@@ -366,12 +369,12 @@
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.0677994);
     justify-content: flex-end;
     margin-left: 89px;
+    height: 100%;
+    // margin-top: 20px;
 
     span {
         color: #86AEF0;
     }
-
-
 
     .section__news-item-title {
         max-width: 270px;
@@ -388,7 +391,6 @@
         line-height: 24px;
         width: 240px;
         padding-top: 20px;
-
     }
 
     .section__news-wrapper {
@@ -403,7 +405,7 @@
     .section__news-img--doc {
         position: absolute;
         left: -32px;
-        bottom: 148px;
+        bottom: 105px;
     }
 
     .section__news-item-about {
@@ -413,6 +415,7 @@
 
     .section__news-item-about-card {
         max-width: 300px;
+        height: 100%;
     }
 }
 
@@ -433,6 +436,7 @@
     line-height: 23px;
     color: #333333;
     max-width: 206px;
+    margin: 0;
 }
 
 .section__news-item-about-date {
@@ -452,7 +456,7 @@
 }
 
 .section__news-item-about-card {
-    padding: 20px 24px 0;
+    padding: 16px 24px 0;
     background: #FFFFFF;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.0677994);
     margin: 0 10px 0 10px;
@@ -482,7 +486,6 @@
     }
 }
 
-
 .footer {
     background-color: #333333;
 
@@ -492,7 +495,6 @@
         font-size: 22px;
         max-width: 360px;
         padding: 70px 0 0 57px;
-
     }
 
     .footer__list-link {
@@ -537,7 +539,6 @@
         position: absolute;
         left: -28px;
         background-repeat: no-repeat;
-
     }
 
     .footer__list-item--viber {
@@ -553,7 +554,6 @@
         position: absolute;
         left: -28px;
         background-repeat: no-repeat;
-
     }
 
     .footer__list-item--whatsapp {
@@ -569,7 +569,6 @@
         position: absolute;
         left: -28px;
         background-repeat: no-repeat;
-
     }
 
     .footer__list-item--telepfone {
@@ -585,7 +584,6 @@
         position: absolute;
         left: -28px;
         background-repeat: no-repeat;
-
     }
 
     .footer__list-item--email {
@@ -601,10 +599,7 @@
         position: absolute;
         left: -28px;
         background-repeat: no-repeat;
-
     }
-
-
 }
 
 
@@ -622,7 +617,6 @@
     color: rgba(255, 255, 255, 0.12653);
     margin: 0;
     padding-left: 33px;
-
 }
 
 .bottom {
@@ -637,14 +631,5 @@
     color: #565656;
     padding: 20px 0 25px 0;
 }
-
-
-
-
-
-
-
-
-
 
 @import '_media';
