@@ -15,4 +15,7 @@ $(function () {
         nextArrow: '<img class="slider-arrows slider-arrows__right" src="../images/svg/arrow-slider-right.svg" alt="">'
 
     });
+    $('.icon').click(function () {
+        $(this).toggleClass('active');
+    })
 });

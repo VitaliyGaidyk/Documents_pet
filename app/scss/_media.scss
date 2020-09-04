@@ -1,0 +1,158 @@
+@media (max-width: 1366px) {}
+
+@media (max-width: 1210px) {
+    .header__main-text-title {
+        width: 469px;
+        padding-bottom: 0px;
+    }
+}
+
+@media (max-width: 1155px) {
+    .header__contacts {
+        position: absolute;
+        bottom: 5px;
+    }
+
+    .header__main-text-title {
+        font-size: 22px;
+    }
+
+
+    .header__number {
+        margin: 0;
+    }
+
+    .header__main-text {
+        margin-top: 307px;
+
+        .header__button--blue-button {
+            margin: 0;
+        }
+    }
+
+    .menu__nav-list {
+        display: none;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    .icon.active {
+
+        .menu__nav-list {
+            display: block;
+
+            a {
+                padding-bottom: 16px;
+                font-family: 'Gilroy Bold';
+            }
+        }
+    }
+
+    .header__main-text-title {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 960px) {
+    .header__men {
+        display: none;
+    }
+}
+
+
+@media (max-width:855px) {
+
+    .header__main-text-title {
+        font-size: 22px;
+    }
+
+    .header__number {
+        position: absolute;
+        bottom: 82px;
+        left: 75px;
+
+
+    }
+
+    .header__button {
+        margin-left: 0;
+        width: 152px;
+
+    }
+}
+
+@media(max-width:778px) {
+    .header__button--orange {
+        display: none;
+    }
+}
+
+@media(max-width:624px) {
+    .header__main-text-title {
+        line-height: 36px;
+        width: 329px;
+        font-size: 16px;
+
+    }
+}
+
+@media (max-width: 414px) {
+
+    .header__text::before {
+        height: 80px;
+    }
+
+    .header__main-text-price {
+        font-size: 16px;
+    }
+
+    .header__main-text-title {
+        line-height: 36px;
+        width: 329px;
+        font-size: 16px;
+
+    }
+}
+
+@media (max-width: 375px) {
+    .header__main-text-price {
+        font-size: 16px;
+    }
+
+    .header__main-text-title {
+        line-height: 36px;
+        width: 329px;
+        font-size: 16px;
+
+    }
+
+    .header__number {
+        margin-bottom: 26px;
+    }
+
+    .header__contacts {
+        bottom: 38px;
+        left: 56px;
+    }
+
+    .header__text::before {
+        height: 80px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header__contacts {
+        bottom: 0px;
+        left: 56px;
+    }
+
+    .header__number {
+        margin: 0;
+    }
+
+    .header__main-text-title {
+        width: 276px;
+    }
+}

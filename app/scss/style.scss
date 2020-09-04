@@ -7,19 +7,21 @@
 .header {
     background-image: url('../images/png/header-bg.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: top;
     position: relative;
+    background-size: cover;
+    height: 100vh;
 
     &__men {
         background-image: url('../images/png/group.png');
         background-repeat: no-repeat;
-        background-position: center right;
+        background-position: bottom right;
         width: 400px;
         height: 563px;
         position: absolute;
-        top: 143px;
-        right: 250px;
         width: 100%;
+        bottom: -5px;
+        right: 215px;
     }
 
     &__contacts-item:nth-child(2) {
@@ -179,6 +181,7 @@
     padding: 0;
     margin-right: 151px;
     margin-top: 27px;
+
 
     &__nav-link {
         font-weight: 500;
